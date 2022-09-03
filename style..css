@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #222;
+  color: antiquewhite;
+  font-family: "Press Start 2P", sans-serif;
+}
+
+.btn {
+  color: #222;
+  background: antiquewhite;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 1.2rem;
+  padding: 0.8rem 2rem;
+  border: none;
+  cursor: pointer;
+  width: 11rem;
+}
+
+header {
+  margin: 1rem;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  width: 80vw;
+  margin: auto;
+  padding: 4rem 0;
+  font-size: 3rem;
+  text-align: center;
+  line-height: 1.4em;
+}
+
+.number {
+  width: 5rem;
+  height: 5rem;
+  background: antiquewhite;
+  color: #222;
+  font-size: 3rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3.5rem 5rem;
+}
+
+main {
+  display: flex;
+  margin-top: 3.4rem;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.guess {
+  width: 11rem;
+  height: 5rem;
+  background: #222;
+  color: antiquewhite;
+  border: solid antiquewhite 1px;
+  display: block;
+  margin-bottom: 1.5rem;
+  font-family: inherit;
+  font-size: 2.5rem;
+  outline: none;
+  text-align: center;
+  padding-right: 1rem;
+}
+
+.right {
+  display: grid;
+  grid-gap: 2.5rem;
+  width: 50vw;
+  font-size: 1.2rem;
+}
